@@ -17,7 +17,7 @@ logging:
   level:
     ROOT: INFO
     tech.jhipster: INFO
-    com.okta.developer.store: INFO
+    com.okta.developer.store: DEBUG
 
 eureka:
   instance:

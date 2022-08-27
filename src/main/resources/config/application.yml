@@ -144,6 +144,11 @@ spring:
           destination: sse-topic
           content-type: text/plain
           group: store
+        binding-out-store-alert:
+          destination: store-alerts-topic
+          content-type: application/json
+          group: store
+
   profiles:
     # The commented value for `active` can be replaced with valid Spring profiles to load.
     # Otherwise, it will be filled in by maven when building the JAR file

@@ -20,7 +20,7 @@ import tech.jhipster.config.JHipsterProperties;
 /**
  * Configuration of web application with Servlet 3.0 APIs.
  */
-@EnableBinding({ KafkaSseConsumer.class, KafkaSseProducer.class })
+@EnableBinding({ KafkaSseConsumer.class, KafkaSseProducer.class, KafkaStoreAlertProducer.class })
 @Configuration
 public class WebConfigurer implements ServletContextInitializer {
 
