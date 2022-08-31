@@ -147,7 +147,9 @@ spring:
         binding-out-store-alert:
           destination: store-alerts-topic
           content-type: application/json
-          group: store
+          group: store-alerts
+          consumer:
+            autoStartup: false
 
   profiles:
     # The commented value for `active` can be replaced with valid Spring profiles to load.
